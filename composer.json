@@ -1,0 +1,25 @@
+{
+    "name": "101senses/magento-Yoast_MetaRobots",
+    "license": "OSLv3",
+    "type": "magento-module",
+    "description": "Yoast metarobots with improved deployment",
+    "homepage": "https://yoast.com/magento-seo/",
+    "authors": [
+        {
+            "name": "Evaldas Taroza",
+            "email": "evaldas@101senses.ch"
+        },
+        {
+            "name": "Paul Hachmang",
+            "email": "paul@h-o.nl"
+        },
+        {
+            "name": "Stephan van Iterson",
+            "email": "info@stemi.nl"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
+
