@@ -6,8 +6,6 @@ app/code/community/Yoast/MetaRobots/etc/system.xml app/code/community/Yoast/Meta
 app/code/community/Yoast/MetaRobots/Helper/Data.php app/code/community/Yoast/MetaRobots/Helper/Data.php
 app/code/community/Yoast/MetaRobots/Model/Attribute/Source/Metarobots.php app/code/community/Yoast/MetaRobots/Model/Attribute/Source/Metarobots.php
 app/code/community/Yoast/MetaRobots/Model/Resource/Eav/Mysql4/Setup.php app/code/community/Yoast/MetaRobots/Model/Resource/Eav/Mysql4/Setup.php
-app/code/community/Yoast/MetaRobots/sql/metarobots_setup/mysql4-install-0.1.0.php app/code/community/Yoast/MetaRobots/sql/metarobots_setup/mysql4-install-0.1.0.php
-app/code/community/Yoast/MetaRobots/sql/metarobots_setup/upgrade-0.1.0-0.2.0.php app/code/community/Yoast/MetaRobots/sql/metarobots_setup/upgrade-0.1.0-0.2.0.php
-app/code/community/Yoast/MetaRobots/sql/metarobots_setup/upgrade-0.2.0-0.3.0.php app/code/community/Yoast/MetaRobots/sql/metarobots_setup/upgrade-0.2.0-0.3.0.php
+app/code/community/Yoast/MetaRobots/sql/metarobots_setup/mysql4-install-1.0.1.php app/code/community/Yoast/MetaRobots/sql/metarobots_setup/mysql4-install-1.0.1.php
 app/design/frontend/base/default/layout/metarobots.xml app/design/frontend/base/default/layout/metarobots.xml
 app/etc/modules/Yoast_MetaRobots.xml app/etc/modules/Yoast_MetaRobots.xml
