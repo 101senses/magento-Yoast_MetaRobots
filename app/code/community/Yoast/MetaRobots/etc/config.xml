@@ -19,19 +19,10 @@
 <config>
 	<modules>
 		<Yoast_MetaRobots>
-			<version>0.3.0</version>
+			<version>1.0.1</version>
 		</Yoast_MetaRobots>
 	</modules>
 	<frontend>
-        <translate>
-            <modules>
-                <Yoast_MetaRobots>
-                    <files>
-                        <default>Mage_Catalog.csv</default>
-                    </files>
-                </Yoast_MetaRobots>
-            </modules>
-        </translate>
         <layout>
             <updates>
                 <metarobots module="metarobots">
@@ -39,7 +30,6 @@
                 </metarobots>
             </updates>
         </layout>
-
 	</frontend>
 	<global>
 		<models>
@@ -89,6 +79,7 @@
     <default>
         <design>
             <head translate="default_description" module="page">
+                <!-- this is used by Mage_Page_Block_Html_Head -->
                 <default_robots>INDEX,FOLLOW</default_robots>
             </head>
         </design>

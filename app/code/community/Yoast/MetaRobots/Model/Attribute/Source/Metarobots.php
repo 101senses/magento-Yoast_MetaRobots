@@ -30,6 +30,7 @@ class Yoast_MetaRobots_Model_Attribute_Source_Metarobots
     const META_ROBOTS_INDEX_FOLLOW_NOARCHIVE     = 5;
     const META_ROBOTS_INDEX_NOFOLLOW_NOARCHIVE   = 6;
     const META_ROBOTS_NOINDEX_NOFOLLOW_NOARCHIVE = 7;
+    const META_ROBOTS_NOODP_NOYDIR               = 8;
 
 
     /**
@@ -38,13 +39,14 @@ class Yoast_MetaRobots_Model_Attribute_Source_Metarobots
     public function getAllOptions()
     {
         return array(
-            self::META_ROBOTS_INDEX_FOLLOW               => array('value' => self::META_ROBOTS_INDEX_FOLLOW,               'label' => Mage::helper('metarobots')->__('INDEX,FOLLOW')),
-            self::META_ROBOTS_INDEX_NOFOLLOW             => array('value' => self::META_ROBOTS_INDEX_NOFOLLOW,             'label' => Mage::helper('metarobots')->__('INDEX,NOFOLLOW')),
-            self::META_ROBOTS_NOINDEX_FOLLOW             => array('value' => self::META_ROBOTS_NOINDEX_FOLLOW,             'label' => Mage::helper('metarobots')->__('NOINDEX,FOLLOW')),
-            self::META_ROBOTS_NOINDEX_NOFOLLOW           => array('value' => self::META_ROBOTS_NOINDEX_NOFOLLOW,           'label' => Mage::helper('metarobots')->__('NOINDEX,NOFOLLOW')),
-            self::META_ROBOTS_INDEX_FOLLOW_NOARCHIVE     => array('value' => self::META_ROBOTS_INDEX_FOLLOW_NOARCHIVE,     'label' => Mage::helper('metarobots')->__('INDEX,FOLLOW,NOARCHIVE')),
-            self::META_ROBOTS_INDEX_NOFOLLOW_NOARCHIVE   => array('value' => self::META_ROBOTS_INDEX_NOFOLLOW_NOARCHIVE,   'label' => Mage::helper('metarobots')->__('INDEX,NOFOLLOW,NOARCHIVE')),
-            self::META_ROBOTS_NOINDEX_NOFOLLOW_NOARCHIVE => array('value' => self::META_ROBOTS_NOINDEX_NOFOLLOW_NOARCHIVE, 'label' => Mage::helper('metarobots')->__('NOINDEX,NOFOLLOW,NOARCHIVE')),
+            self::META_ROBOTS_INDEX_FOLLOW               => array('value' => self::META_ROBOTS_INDEX_FOLLOW,               'label' => 'INDEX,FOLLOW'),
+            self::META_ROBOTS_INDEX_NOFOLLOW             => array('value' => self::META_ROBOTS_INDEX_NOFOLLOW,             'label' => 'INDEX,NOFOLLOW'),
+            self::META_ROBOTS_NOINDEX_FOLLOW             => array('value' => self::META_ROBOTS_NOINDEX_FOLLOW,             'label' => 'NOINDEX,FOLLOW'),
+            self::META_ROBOTS_NOINDEX_NOFOLLOW           => array('value' => self::META_ROBOTS_NOINDEX_NOFOLLOW,           'label' => 'NOINDEX,NOFOLLOW'),
+            self::META_ROBOTS_INDEX_FOLLOW_NOARCHIVE     => array('value' => self::META_ROBOTS_INDEX_FOLLOW_NOARCHIVE,     'label' => 'INDEX,FOLLOW,NOARCHIVE'),
+            self::META_ROBOTS_INDEX_NOFOLLOW_NOARCHIVE   => array('value' => self::META_ROBOTS_INDEX_NOFOLLOW_NOARCHIVE,   'label' => 'INDEX,NOFOLLOW,NOARCHIVE'),
+            self::META_ROBOTS_NOINDEX_NOFOLLOW_NOARCHIVE => array('value' => self::META_ROBOTS_NOINDEX_NOFOLLOW_NOARCHIVE, 'label' => 'NOINDEX,NOFOLLOW,NOARCHIVE'),
+            self::META_ROBOTS_NOODP_NOYDIR               => array('value' => self::META_ROBOTS_NOODP_NOYDIR,               'label' => 'NOODP,NOYDIR'),
         );
     }
 
