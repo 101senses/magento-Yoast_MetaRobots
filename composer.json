@@ -1,6 +1,6 @@
 {
     "name": "101senses/magento-yoast_metarobots",
-    "license": "OSLv3",
+    "license": "OSL-3.0",
     "type": "magento-module",
     "description": "Yoast metarobots with improved deployment",
     "homepage": "https://yoast.com/magento-seo/",
