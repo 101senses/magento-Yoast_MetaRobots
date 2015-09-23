@@ -14,7 +14,7 @@
  */
 
 $installer = $this;
-/* @var $installer Mage_Core_Model_Resource_Setup */
+/* @var Yoast_MetaRobots_Model_Resource_Eav_Mysql4_Setup $installer */
 
 $installer->startSetup();
 
